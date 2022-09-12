@@ -1,0 +1,90 @@
+
+
+body .Skin, body .Skin .QuestionText, body .Skin .DB .QuestionText{
+	font-family:'Open Sans',Arial, sans-serif !important;
+	color: #000 !important;
+    line-height:1.35em;
+  font-size:16px;
+}
+body .Skin input.TextEntryBox, body .Skin .TE textarea, body .Skin textarea, body .Skin input[type=password], body .Skin input[type=text], body .Skin input[type=search], body .Skin select{
+	border: 2px solid #000;
+}
+
+body .Skin select.Selection, body .Skin textarea.InputText{
+	color:#000 !important;
+	padding:10px !important;
+}
+body .Skin .TE .ESTB .InputText, body .Skin select{
+	background-color:#fff !important;
+}
+body .Skin .MC .DL .QuestionBody{
+	padding-left:0 !important;
+	padding-right: 0 !important;
+}
+body .Skin .QuestionText{
+	padding-bottom: 8px !important;
+}
+body .LabelWrapper{
+	color:#000 !important;
+}
+
+body .Skin label.MultipleAnswer, body .Skin label.SingleAnswer{
+	background:none !important;
+}
+body .Skin label.MultipleAnswer.q-focused, body .Skin label.MultipleAnswer.q-checked, body .Skin label.SingleAnswer.q-checked, body .Skin label.SingleAnswer.q-focused{
+	background:rgba(00,255,129,0.2) !important;
+	color:#000 !important;
+}
+
+body .Skin input[type=text]{
+	background-color:#fff !important;
+	color:#000 !important;
+}
+body .Skin .QuestionOuter{
+	padding-bottom:10px !important;
+}
+body .Skin button, body .Skin input, body .Skin select, body .Skin textarea{
+	font-size: 16px !important;
+	font-family:'Open Sans',Arial, sans-serif !important;
+	color:#eee !important;
+}
+@media (min-width: 770px) body .Skin .SkinContent .QuestionBody {
+	padding-bottom:10px !important;
+}
+body .Skin #Buttons{
+	padding-top:10px !important;
+}
+
+body .JFEScope .dropzone{
+	background: rgba(0,122,192,1);
+}
+body .JFEScope .dropzone.dz-drag-hover, body .JFEScope .dropzone:not(.dz-max-files-reached):hover{
+	background: rgba (0,122,192,.6);
+}
+body .JFEScope .Skin .q-matrix .table-cell{
+	font-size:16px;
+}
+body .book-interview{
+	background:rgba(0,122,192,1);
+	color:#fff;
+}
+body .Skin .Matrix table th{
+	font-weight:400;
+	font-size:14px;
+}
+body .Skin .Matrix .QuestionBody, body .Skin .SBS .QuestionBody{
+	color:#000;
+}
+body .Skin label.q-radio{
+	border:2px solid #000;
+}
+body .Skin .ValidationError{
+	text-indent:35px;
+}
+
+body .Skin #Plug {
+	position:absolute !important;
+	left:-900px !important;
+	color:rgba(255,255,255,0) !important;
+	background:rgba(255,255,255,0) !important;
+}
